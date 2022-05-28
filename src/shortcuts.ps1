@@ -27,7 +27,7 @@ function gd {
     git diff @Args
 }
 
-function gd {
+function gdc {
     git diff --cached @Args
 }
 
