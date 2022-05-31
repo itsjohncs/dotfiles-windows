@@ -60,3 +60,8 @@ function mk {
     cowsay "Hi! I love you <3"
     clear
 }
+
+Remove-Alias -Name pwd -ErrorAction SilentlyContinue
+function pwd {
+    echo $(Get-Location).Path
+}
