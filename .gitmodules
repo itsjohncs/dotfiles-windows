@@ -1,0 +1,3 @@
+[submodule "src/git-select"]
+	path = src/git-select
+	url = git@github.com:itsjohncs/git-select.git
