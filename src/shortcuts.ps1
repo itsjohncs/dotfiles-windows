@@ -35,6 +35,7 @@ function gg {
     git grep --untracked --line-number @Args
 }
 
+Remove-Alias -Force -Name gl -ErrorAction SilentlyContinue
 function gl {
     git log @Args
 }
